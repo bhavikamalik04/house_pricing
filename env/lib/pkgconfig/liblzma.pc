@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/bhavikamalik/Documents/coding/projects/house_pricing/env
+exec_prefix=/Users/bhavikamalik/Documents/coding/projects/house_pricing/env
+libdir=/Users/bhavikamalik/Documents/coding/projects/house_pricing/env/lib
+includedir=/Users/bhavikamalik/Documents/coding/projects/house_pricing/env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
